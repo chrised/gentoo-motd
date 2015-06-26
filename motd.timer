@@ -1,0 +1,9 @@
+[Unit]
+Description=Update MOTD
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5m
+
+[Install]
+WantedBy=timers.target

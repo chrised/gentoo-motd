@@ -1,0 +1,6 @@
+[Unit]
+Description=Update MOTD
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/update-motd
